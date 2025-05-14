@@ -1,5 +1,13 @@
 ## Credit Risk Classification
 
+### Files Description
+
+* **Resources/lending_data.csv:** This CSV file contains the historical lending activity data used for training and evaluating the credit risk prediction model. It includes various financial features of loan applications and the final loan status (healthy or high-risk).
+* **credit_risk_classification.ipynb:** This Jupyter Notebook contains the Python code used for the analysis. It includes steps for loading the data, preprocessing it, training the Logistic Regression model, making predictions, and evaluating the model's performance using metrics like accuracy, precision, recall, and the confusion matrix.
+* **credit_risk_analysis_report.md:** This Markdown file contains the Credit Risk Analysis Report, summarizing the purpose of the analysis, the results of the Logistic Regression model, and a recommendation for its use. This file documents the findings and insights gained from the analysis.
+
+### Overview of the Analysis
+
 This analysis aimed to develop a predictive model for assessing credit risk in loan applications. By examining historical data on past loans, the objective was to create a tool that could accurately classify new loan applications as either representing a healthy (low-risk) investment or posing a high risk of default. The ability to effectively distinguish between these two categories is vital for the lending company to optimize its lending strategy and mitigate potential financial losses associated with loan defaults.
 
 The dataset analyzed contained a variety of financial indicators associated with each loan. These included details such as the loan amount, the interest rate assigned, the borrower's income, their debt-to-income ratio, the number of credit accounts held, any record of derogatory financial marks, their total outstanding debt, and, crucially, the final status of the loan (the target variable). The prediction target was the `loan_status`, where a value of 0 signified a loan that was repaid successfully (healthy), and a value of 1 indicated a loan that faced significant issues or resulted in default (high-risk).
